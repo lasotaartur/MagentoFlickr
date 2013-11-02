@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <alasota_flickr>
+            <version>0.0.1</version>
+        </alasota_flickr>
+    </modules>
+    <frontend>
+        <routers>
+            <flickr>
+                <use>standard</use>
+                <args>
+                    <module>Alasota_Flickr</module>
+                    <frontName>flickr</frontName>
+                </args>
+            </flickr>
+        </routers>  
+    </frontend>
+
+
+</config>
